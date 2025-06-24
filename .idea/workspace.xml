@@ -4,7 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef5ec032-c455-4965-a4e8-248e2da37e54" name="Changes" comment="" />
+    <list default="true" id="ef5ec032-c455-4965-a4e8-248e2da37e54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/informatyka-umg.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/informatyka-umg.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/et-line.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/et-line.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/vertical-rhythm.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/vertical-rhythm.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetching-plan.js" beforeDir="false" afterPath="$PROJECT_DIR$/fetching-plan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/et-line.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/et-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/et-line.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/et-line.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/et-line.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background/-ai-generated-8540917a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/background/-ai-generated-8540917a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background/-ai-generated-8540917a_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/background/-ai-generated-8540917a_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/logo-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/wi-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/wi-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/wi_zolty_pl.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/wi_zolty_pl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/wi_zolty_pl_120.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/wi_zolty_pl_120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/wi_zolty_pl_1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/wi_zolty_pl_1500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/wi_zolty_pl_300.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/wi_zolty_pl_300.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/wi_zolty_pl_60.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/wi_zolty_pl_60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/SmoothScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/SmoothScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/isotope.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.backgroundvideo.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.backgroundvideo.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.easing.1.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.fitvids.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.fitvids.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.lazyload.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.lazyload.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.localScroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.localScroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.parallax-1.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.parallax-1.1.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.viewport.mini.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.viewport.mini.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/masonry.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/masonry.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/morphext.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/morphext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/wow.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niestacjonarne.html" beforeDir="false" afterPath="$PROJECT_DIR$/niestacjonarne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plany/plan-informatyka-umg.js" beforeDir="false" afterPath="$PROJECT_DIR$/plany/plan-informatyka-umg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stacjonarne.html" beforeDir="false" afterPath="$PROJECT_DIR$/stacjonarne.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,40 +77,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "zacniewski"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zacniewski&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:artur-zacniewski/informatyka-umg.github.io.git",
-    "accountId": "6870671b-6604-4276-8f36-9acbc92f7aa1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:artur-zacniewski/informatyka-umg.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;6870671b-6604-4276-8f36-9acbc92f7aa1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vAyDQWZ7i40dNIz1B4JCstUfGD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/artur/Desktop/PROJECTS/informatyka-umg.github.io/fonts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/artur/Desktop/PROJECTS/informatyka-umg.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fonts" />
@@ -59,8 +124,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
-        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
@@ -73,6 +138,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743602052675</updated>
       <workItem from="1743602054156" duration="1915000" />
+      <workItem from="1750702185150" duration="38000" />
+      <workItem from="1750702232100" duration="434000" />
     </task>
     <servers />
   </component>
