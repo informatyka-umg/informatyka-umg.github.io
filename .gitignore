@@ -227,6 +227,9 @@ cmake-build-*/
 # IntelliJ
 out/
 
+# PyCharm
+.idea/
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
