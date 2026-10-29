@@ -1,102 +1,96 @@
-// Import the plan data
-import { data } from "../plany/plan-informatyka-umg-dzienne.js";
+// Renders a study plan as semester tabs.
+// Usage: <div id="plan-container" data-plan="plany/plan-....js"></div>
+const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+const PROPERTIES = ['Rygor', 'Liczba godzin', 'Punkty ECTS', 'Prowadzący', 'Opis'];
 
-// Wait for the DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-    // Get the container where we'll render the plan
-    const planContainer = document.getElementById('plan-container');
+function el(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
+}
 
-    // Get the semesters data
-    const semestry = data.semestry;
+function renderCategory(categoryName, courses) {
+    const section = el('div', 'category-section mb-4');
+    section.appendChild(el('h4', 'font-alt mb-3', categoryName));
 
-    // Loop through each semester
-    for (const semesterNumber in semestry) {
-        // Create a section for this semester
-        const semesterSection = document.createElement('div');
-        semesterSection.className = 'semester-section mb-5';
+    const wrapper = el('div', 'table-responsive');
+    const table = el('table', 'table table-striped table-bordered w-100 thick-borders');
+    const headerRow = el('tr');
+    ['Przedmiot', ...PROPERTIES].forEach(h => headerRow.appendChild(el('th', '', h)));
+    const thead = el('thead');
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
 
-        // Add a heading for the semester
-        const semesterHeading = document.createElement('h3');
-        semesterHeading.className = 'font-alt mb-4 fw-bold text-decoration-underline';
-        semesterHeading.textContent = `Semestr ${semesterNumber}`;
-        semesterSection.appendChild(semesterHeading);
-
-        // Get the categories for this semester
-        const categories = semestry[semesterNumber];
-
-        // Loop through each category in this semester
-        for (const categoryName in categories) {
-            // Create a section for this category
-            const categorySection = document.createElement('div');
-            categorySection.className = 'category-section mb-4';
-
-            // Add a heading for the category
-            const categoryHeading = document.createElement('h4');
-            categoryHeading.className = 'font-alt mb-3';
-            categoryHeading.textContent = categoryName;
-            categorySection.appendChild(categoryHeading);
-
-            // Get the courses for this category
-            const courses = categories[categoryName];
-
-            // Create a table for the courses
-            const table = document.createElement('table');
-            table.className = 'table table-striped table-bordered w-100 thick-borders';
-
-            // Create the table header
-            const thead = document.createElement('thead');
-            const headerRow = document.createElement('tr');
-
-            // Add header cells
-            const headers = ['Przedmiot', 'Rygor', 'Liczba godzin', 'Punkty ECTS', 'Prowadzący', 'Opis', 'Narzędzia, języki, technologie'];
-            headers.forEach(headerText => {
-                const th = document.createElement('th');
-                th.textContent = headerText;
-                headerRow.appendChild(th);
-            });
-
-            thead.appendChild(headerRow);
-            table.appendChild(thead);
-
-            // Create the table body
-            const tbody = document.createElement('tbody');
-
-            // Loop through each course in this category
-            for (const courseName in courses) {
-                const courseData = courses[courseName];
-
-                // Create a row for this course
-                const row = document.createElement('tr');
-
-                // Add the course name cell
-                const nameCell = document.createElement('td');
-                nameCell.textContent = courseName;
-                row.appendChild(nameCell);
-
-                // Add cells for each property
-                const properties = ['Rygor', 'Liczba godzin', 'Punkty ECTS', 'Prowadzący', 'Opis', 'Narzędzia, języki, technologie'];
-                properties.forEach(property => {
-                    const cell = document.createElement('td');
-                    cell.textContent = courseData[property] || '-';
-                    row.appendChild(cell);
-                });
-
-                tbody.appendChild(row);
-            }
-
-            table.appendChild(tbody);
-            categorySection.appendChild(table);
-
-            semesterSection.appendChild(categorySection);
-        }
-
-        // Add the semester section to the plan container
-        planContainer.appendChild(semesterSection);
+    const tbody = el('tbody');
+    for (const courseName in courses) {
+        const row = el('tr');
+        row.appendChild(el('td', 'fw-bold', courseName));
+        PROPERTIES.forEach(p => {
+            const value = courses[courseName][p];
+            row.appendChild(el('td', '', value === undefined || value === '' ? '-' : String(value)));
+        });
+        tbody.appendChild(row);
     }
+    table.appendChild(tbody);
+    wrapper.appendChild(table);
+    section.appendChild(wrapper);
+    return section;
+}
 
-    // Add legend after all tables have been processed
-    const legend = document.createElement('div');
-    legend.className = 'legend mt-4 mb-4 small text-muted';
-    legend.innerHTML = '<strong>Legenda:</strong><br>W - wykład, C - ćwiczenia, L - laboratorium, P - projekt<br>WI - Wydział Informatyki<br>ZIS - Zakład Informatyki Stosowanej i Sztucznej Inteligencji<br>ZIS - Zakład Inżynierii Systemów<br>ZM - Zakład Matematyki<br>ZPI - Zakład Podstaw Informatyki<br>ZSA - Zakład Systemów Autonomicznych';
+function renderPlan(planContainer, data) {
+    const semestry = data.semestry;
+    const nav = el('ul', 'nav nav-tabs tpl-minimal-tabs animate justify-content-center mb-40');
+    nav.setAttribute('role', 'tablist');
+    const content = el('div', 'tab-content section-text');
+
+    Object.keys(semestry).forEach((semesterNumber, index) => {
+        const paneId = `semestr-${semesterNumber}`;
+        const active = index === 0;
+
+        const li = el('li');
+        const link = el('a', 'nav-link' + (active ? ' active' : ''), `Sem. ${ROMAN[semesterNumber - 1] || semesterNumber}`);
+        link.href = `#${paneId}`;
+        link.setAttribute('data-bs-toggle', 'tab');
+        link.setAttribute('role', 'tab');
+        link.setAttribute('aria-controls', paneId);
+        link.setAttribute('aria-selected', active ? 'true' : 'false');
+        li.appendChild(link);
+        nav.appendChild(li);
+
+        const pane = el('div', 'tab-pane fade' + (active ? ' show active' : ''));
+        pane.id = paneId;
+        pane.setAttribute('role', 'tabpanel');
+
+        const categories = semestry[semesterNumber];
+        for (const categoryName in categories) {
+            pane.appendChild(renderCategory(categoryName, categories[categoryName]));
+        }
+        content.appendChild(pane);
+    });
+
+    planContainer.appendChild(nav);
+    planContainer.appendChild(content);
+
+    const legend = el('div', 'legend mt-4 mb-4 small text-muted');
+    legend.innerHTML = '<strong>Legenda:</strong><br>W - wykład, C - ćwiczenia, L - laboratorium, P - projekt<br>' +
+        'WI - Wydział Informatyki<br>WE - Wydział Elektryczny<br>KF/WM - Katedra Fizyki / Wydział Mechaniczny<br>' +
+        'SJO - Studium Języków Obcych<br>SWFiS - Studium Wychowania Fizycznego i Sportu<br>' +
+        'WZNJ - Wydział Zarządzania i Nauk o Jakości<br>' +
+        'ZIS - Zakład Inżynierii Systemów<br>ZISiSI - Zakład Informatyki Stosowanej i Sztucznej Inteligencji<br>' +
+        'ZM - Zakład Matematyki<br>ZPI - Zakład Podstaw Informatyki<br>ZSA - Zakład Systemów Autonomicznych';
     planContainer.appendChild(legend);
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+    const planContainer = document.getElementById('plan-container');
+    if (!planContainer) return;
+    const planPath = planContainer.dataset.plan || 'plany/plan-informatyka-umg-dzienne.js';
+    try {
+        const { data } = await import(new URL(planPath, document.baseURI).href);
+        renderPlan(planContainer, data);
+    } catch (e) {
+        console.error(e);
+        planContainer.textContent = 'Nie udało się wczytać planu studiów.';
+    }
 });
